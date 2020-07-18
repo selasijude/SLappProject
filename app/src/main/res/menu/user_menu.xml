@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:title="Menu"
+    app:showAsAction="always"
+    android:icon="@drawable/ic_main_menu">
+    <menu>
+        <item android:id="@+id/userSettings"
+            android:title="@string/settings"
+            app:showAsAction="never"
+            android:icon="@drawable/ic_settings_applications_black_24dp"
+            />
+
+        <item android:id="@+id/userTerms"
+            android:title="@string/terms"
+            app:showAsAction="never"
+            android:icon="@drawable/ic_insert_drive_file_black_24dp"/>
+
+        <item android:id="@+id/rate"
+            android:title="@string/rate"
+            app:showAsAction="never"
+            android:icon="@drawable/ic_rate_review_black_24dp"/>
+
+    </menu>
+</item>
+
+
+</menu>

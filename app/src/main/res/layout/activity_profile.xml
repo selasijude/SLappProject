@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_weight="4"
+            android:src="@drawable/busother"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_margin="?actionBarSize"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:textColor="#fff"
+            android:text="Driver Profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/defavatar"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/emailProfile"
+            android:textColor="#fff"
+            android:textColorHint="#000"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:hint="Email"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@drawable/rounded_corner"
+            android:textSize="17sp"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            android:id="@+id/contactProfile"
+            android:textColor="#fff"
+            android:textColorHint="#000"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:hint="Phone number"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@drawable/rounded_corner"
+            android:textSize="17sp"
+            android:inputType="phone"/>
+
+        <TextView
+            android:id="@+id/carNumber"
+            android:textColor="#fff"
+            android:textColorHint="#000"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:hint="Car Number"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@drawable/rounded_corner"
+            android:textSize="17sp" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

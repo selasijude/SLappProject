@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item android:title="Main menu"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_main_menu"
+       >
+        <menu>
+            <item android:id="@+id/logout"
+                android:title="@string/logout"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_power_settings_for_logout_24dp"/>
+
+            <item android:id="@+id/driverSettings"
+                android:title="@string/settings"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_settings_applications_black_24dp"/>
+
+            <item android:id="@+id/driverProfile"
+                android:title="Profile"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_account_circle_black_24dp"
+                />
+
+            <item android:id="@+id/driverTerms"
+                android:title="@string/terms"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_settings_applications_black_24dp"/>
+        </menu>
+    </item>
+
+</menu>

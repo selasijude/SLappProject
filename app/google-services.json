@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "206954427558",
+    "firebase_url": "https://slapp-20180.firebaseio.com",
+    "project_id": "slapp-20180",
+    "storage_bucket": "slapp-20180.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206954427558:android:ac60803a372c5196e87067",
+        "android_client_info": {
+          "package_name": "com.tyressory.slapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206954427558-oir4j55hmor75soi4s4joqe9is5g4eki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBQ99_N8h-gP8w4p7l4Wnd82Bf3WMBbBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206954427558-oir4j55hmor75soi4s4joqe9is5g4eki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
